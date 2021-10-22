@@ -10,6 +10,7 @@ const commandMap = {
 };
 
 args.forEach((x) => {
+  console.log('start to log ', x);
   const pathToRemove = commandMap[x];
   if (pathToRemove !== undefined) {
     rimraf.sync(pathToRemove);
