@@ -57,14 +57,14 @@ export default class MenuBuilder {
       label: 'Electron',
       submenu: [
         {
-          label: 'About 天工工程化平台',
+          label: 'About 天工AI',
           selector: 'orderFrontStandardAboutPanel:',
         },
         { type: 'separator' },
         { label: 'Services', submenu: [] },
         { type: 'separator' },
         {
-          label: 'Hide 天工工程化平台',
+          label: 'Hide 天工AI',
           accelerator: 'Command+H',
           selector: 'hide:',
         },

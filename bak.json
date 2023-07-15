@@ -1,7 +1,7 @@
 {
   "name": "tiangong-desktop",
-  "productName": "天工工程化平台",
-  "description": "天工工程化平台",
+  "productName": "天工AI",
+  "description": "天工AI",
   "scripts": {
     "build": "concurrently \"npm run build:main\" \"npm run build:renderer\"",
     "build:main": "cross-env NODE_ENV=production TS_NODE_TRANSPILE_ONLY=true webpack --config ./.erb/configs/webpack.config.main.prod.ts",
@@ -28,7 +28,7 @@
     ]
   },
   "build": {
-    "productName": "天工工程化平台",
+    "productName": "天工AI",
     "appId": "org.erb.ElectronReact",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
